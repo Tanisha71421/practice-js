@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRN Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script src="master.js" type="text/javascript"></script>
+<div style="background-color: #0a0000; height:40rem; width: 50%;display: inline-block;">
+<h1> PRN NO.Generator  for MIT</h1>
+<h2>Enter details to generate PRN NO.</h2>
+    <form>
+        <div style="margin-top: 7rem; ">
+            <label for="Branch">Select your Branch :</label>
+            <span class="inp">
+            <select id="Branch" >
+                <option value="CS">Computer</option>
+                <option value="EX">E & TC</option>
+                <option value="CV">Civil</option>
+                <option value="ME">Mechanical</option>
+                <option value="CH">Chemical</option>
+                <option value="IF">IT</option>
+            </select>
+            </span>
+        </div>
+        <div style="margin-top: 2rem;">
+            <label for="Batch">Enter your Batch No :</label>
+            <span class="inp"><input type="number" id="Batch" required></span>
+        </div>
+        <div style="margin-top: 2rem;">
+            <label for="sequence">Enter the Sequence No :</label>
+            <span class="inp">
+            <input type="number" id="sequence" required>
+            </span>
+        </div><br><br>
+         <input class="button" type="submit" onclick="calljs()">
+    </form>
+</div>
+ </body>
+</html>

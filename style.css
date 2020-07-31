@@ -1,0 +1,48 @@
+.forms{
+height : 200px;
+width : 50%;
+margin: auto;
+}
+body{
+	background-color: #fcba03;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/53fb0761e4b0d182e1ba1377/1502361961633-DBN9B15ZBVBX18JSNFDJ/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/SportsGen_Dribbble.gif);
+	text-align: center;
+	font-family: helvetica;
+	color: white;
+}
+h1{
+	margin: auto;
+	text-align: center;
+}
+h2{
+	margin-top: 5rem;
+	text-align: center;
+}
+span{
+	margin-left: 2rem;
+}
+
+
+
+.button {
+  display: inline-block;
+  padding: 25px 35px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
